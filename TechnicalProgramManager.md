@@ -1,8 +1,8 @@
 # Technical Program Manager
 
-Role responsible for coordinating and driving to completion initiatives that expand multiple teams.
+複数のチームにまたがる意思決定を調整し、完了に導く責任を負う役割。
 
-| Level | Senior | Position |
+| レベル | シニア | ポジション |
 | :---: | :---: | :---: |
 | 4 | Yes | [TPM4 - Technical Program Manager 4](#tpm4---technical-program-manager-4) |
 | 5 | Yes | [TPM5 - Technical Program Manager 5](#tpm5---technical-program-manager-5) |
@@ -18,11 +18,11 @@ Role responsible for coordinating and driving to completion initiatives that exp
   <img alt="Technical Program Manager 4" src="/charts/technicalprogrammanager-4.png">
 </picture>
 
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-* **Coordinates**: coordinates team members providing effective feedback and moderating discussions
-* **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
-* **Multiple Teams**: makes an impact not only on the whole team but also on other teams
+* **Specializes**: 1つまたは複数の技術領域において頼りになる人物であり、新しい技術を学ぶために率先して行動している。
+* **Designs**: システムの技術的負債を削減しながら、中規模から大規模なサイズの機能の設計および実装をする。
+* **Coordinates**: チームメンバーの間に入り、効果的なフィードバックを提供したり、議論を円滑にする。
+* **Adjusts**: チームのプロセスのバランスをとり、フィードバックに耳を傾け、変更を通じてチームを導く。
+* **Multiple Teams**: 自分のチームだけではなく、他のチームにも影響を与えている。
 
 ## TPM5 - Technical Program Manager 5
 
@@ -32,11 +32,11 @@ Role responsible for coordinating and driving to completion initiatives that exp
   <img alt="Technical Program Manager 5" src="/charts/technicalprogrammanager-5.png">
 </picture>
 
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-* **Coordinates**: coordinates team members providing effective feedback and moderating discussions
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Multiple Teams**: makes an impact not only on the whole team but also on other teams
+* **Specializes**: 1つまたは複数の技術領域において頼りになる人物であり、新しい技術を学ぶために率先して行動している。
+* **Designs**: システムの技術的負債を削減しながら、中規模から大規模なサイズの機能の設計および実装をする。
+* **Coordinates**: チームメンバーの間に入り、効果的なフィードバックを提供したり、議論を円滑にする。
+* **Defines**: 敏捷性と規律のバランスをとりながら、チームの成熟度に適したプロセスを定義する。
+* **Multiple Teams**: 自分のチームだけではなく、他のチームにも影響を与えている。
 
 ## TPM6 - Technical Program Manager 6
 
@@ -46,11 +46,11 @@ Role responsible for coordinating and driving to completion initiatives that exp
   <img alt="Technical Program Manager 6" src="/charts/technicalprogrammanager-6.png">
 </picture>
 
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
-* **Manages**: manages the team members' career, expectations, performance and level of happiness
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Company**: makes an impact on the whole tech organization
+* **Specializes**: 1つまたは複数の技術領域において頼りになる人物であり、新しい技術を学ぶために率先して行動している。
+* **Owns**: システムの運用と監視を担当し、その SLA を気にしている。
+* **Manages**: チームメンバーをマネージすることでキャリア、期待、パフォーマンス、幸福度に貢献する。
+* **Defines**: 敏捷性と規律のバランスをとりながら、チームの成熟度に適したプロセスを定義する。
+* **Company**: 開発組織全体に影響を与えいてる。
 
 ## TPM7 - Technical Program Manager 7
 
@@ -60,17 +60,17 @@ Role responsible for coordinating and driving to completion initiatives that exp
   <img alt="Technical Program Manager 7" src="/charts/technicalprogrammanager-7.png">
 </picture>
 
-* **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-* **Evolves**: evolves the architecture to support future requirements and defines its SLAs
-* **Manages**: manages the team members' career, expectations, performance and level of happiness
-* **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
-* **Community**: makes an impact on the tech community
+* **Specializes**: 1つまたは複数の技術領域において頼りになる人物であり、新しい技術を学ぶために率先して行動している。
+* **Evolves**: 将来の要件をサポートするためにアーキテクチャを進化、改善させ、SLA を定義する。
+* **Manages**: チームメンバーをマネージすることでキャリア、期待、パフォーマンス、幸福度に貢献する。
+* **Defines**: 敏捷性と規律のバランスをとりながら、チームの成熟度に適したプロセスを定義する。
+* **Community**: 技術コミュニティに影響を与えている。
 
-# Other Pages
+# その他のページ
 
-* [**Introduction**](README.md)
-* [**Developer**](Developer.md)
-* [**Tech Lead**](TechLead.md)
-* [**Engineering Manager**](EngineeringManager.md)
-* [**Tech Lead vs Engineering Manager**](TechLead-EngineeringManager.md)
-* [**Managing Managers**](Managing-Managers.md)
+* [**概要**](README.md)
+* [**開発者**](Developer.md)
+* [**テックリード**](TechLead.md)
+* [**エンジニアリングマネージャー**](EngineeringManager.md)
+* [**テックリード vs エンジニアリングマネージャー**](TechLead-EngineeringManager.md)
+* [**マネージャーのマネジメント**](Managing-Managers.md)
