@@ -1,10 +1,10 @@
-# Introduction
+# 概要
 
-This framework allows software engineering managers to have meaningful conversations with their direct reports around the expectations of each position and how to plan for the next level in their career ladder.
+フレームワークを利用することで、engineering managers は、各ポジションに期待されることや、キャリアラダーの次のレベルに到達するための計画について、メンバーと有意義な会話をすることができます。
 
-Although the framework uses roles and levels that are somewhat standard in the US tech industry, every company is different. Please use the information provided as a baseline and feel free adjust it to your needs.
+フレームワークは、米国のテック企業ではある程度標準的な役割とレベルを使用していますが、すべての企業でそのまま利用できるわけではありません。ここにある情報をベースラインとして使用し必要に応じて柔軟に適用してください。
 
-The framework relies heavily in radar charts to show visually the different perspectives and expectations of a given position:
+フレームワークは、レーダーチャートに大きく依存して、特定のポジションのさまざまな視点と期待を視覚的に示します。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="charts/template-dark.png">
@@ -12,18 +12,18 @@ The framework relies heavily in radar charts to show visually the different pers
   <img alt="Template Chart" src="charts/template.png">
 </picture>
 
-# Career Ladders
+# キャリアラダー
 
-The framework has 4 different ladders:
+フレームワークには、４つの異なるラダーがあります:
 
-* [**Developer**](Developer.md): role also known as programmer or software engineer, requires a deep level of technical expertise
-* [**Tech Lead**](TechLead.md): role also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support
-* [**Technical Program Manager**](TechnicalProgramManager.md): role responsible for coordinating and driving to completion initiatives that span multiple teams
-* [**Engineering Manager**](EngineeringManager.md): role also known as dev manager, is responsible for the consistent delivery, career growth and level of happiness of the team
+* [**開発者**](Developer.md): プログラマーまたはソフトウェアエンジニアとしても知られる役割には、深いレベルの技術的専門知識が必要です。
+* [**テックリード**](TechLead.md): 開発リーダーとしても知られる役割は、システムのオーナーであり、実践的な開発、アーキテクチャの知識、およびプロダクトのサポートの間で絶妙なバランスを必要とします。
+* [**テクニカルプログラムマネージャー**](TechnicalProgramManager.md): 複数のチームにまたがる意思決定を調整し、完了に導く責任を負う役割。
+* [**エンジニアリングマネージャー**](EngineeringManager.md): 開発マネージャーとしても知られる役割は、持続的なデリバリ、キャリアの成長、チームの幸福度に責任を負います。
 
-If you are confused about the difference between a [Tech Lead](TechLead.md) and an [Engineering Manager](EngineeringManager.md), please refer to the [Tech Lead vs Engineering Manager](TechLead-EngineeringManager.md) page for a detailed comparison.
+もしも [テックリード](TechLead.md) と [エンジニアマネージャー](EngineeringManager.md) の違いについてピンと来ていない場合には、 [テックリード vs エンジニアマネージャー](TechLead-EngineeringManager.md) のページに詳細な比較が書かれているので参照してほしい。
 
-| Level | Senior | [Developer](Developer.md) | [Tech Lead](TechLead.md) | [Technical Program Manager](TechnicalProgramManager.md) | [Engineering Manager](EngineeringManager.md) |
+| Level | Seniority | [開発者](Developer.md) | [テックリード](TechLead.md) | [テクニカルプログラムマネージャー](TechnicalProgramManager.md) | [エンジニアリングマネージャー](EngineeringManager.md) |
 | :---: | :---: | :---: | :---: | :---: |  :---: |
 | 1 | No | [D1](Developer.md#d1---developer-1) | | | |
 | 2 | No | [D2](Developer.md#d2---developer-2) | | | |
@@ -33,105 +33,108 @@ If you are confused about the difference between a [Tech Lead](TechLead.md) and 
 | 6 | Yes | [D6](Developer.md#d6---developer-6) | [TL6](TechLead.md#tl6---tech-lead-6) | [TPM6](TechnicalProgramManager.md#tpm6---technical-program-manager-6) | [EM6](EngineeringManager.md#em6---engineering-manager-6) |
 | 7 | Yes | [D7](Developer.md#d7---developer-7) | [TL7](TechLead.md#tl7---tech-lead-7) | [TPM7](TechnicalProgramManager.md#tpm7---technical-program-manager-7) | [EM7](EngineeringManager.md#em7---engineering-manager-7) |
 
-(click on position name for more details)
+(詳細は役職名をクリックしてください)
 
-# Axes
+# 軸
 
-The chart shown above has the following 5 axes:
-* **Technology**: knowledge of the tech stack and tools
-* **System**: level of ownership of the system(s)
-* **People**: relationship with the team(s)
-* **Process**: level of engagement with the development process
-* **Influence**: scope of influence of the position
+上記のチャートには、以下の5つの軸があります:
+* **Technology**: 技術スタックとツールに関する知識
+* **System**: システムに対するオーナーシップの度合い、レベル
+* **People**: チームとの関係性
+* **Process**: 開発プロセスへの関与のレベル
+* **Influence**: 現状のポジションの影響範囲
 
-The **influence** axis can be seen as a *different dimension* since it is orthogonal and applies to all the other axes.
+`※図に表示された言葉なのであえて日本語に訳すことはしておらず以下では、英語表記のままとする。`
 
-Each axis has 5 different levels of performance. It is important to highlight that every level includes the previous one(s). For example, someone that *evangelizes* technology, *specializes* and *adopts* it as well.
+**Influence** 軸は、他と直交しておりすべての軸に適用されるため、*異なった次元* と見なすことができます。
 
-Keep reading to better understand each level.
+各軸には、5 つの異なるレベルのパフォーマンスがあります。すべてのレベルに前のレベルが含まれていることが着目すべき重要な点です。たとえば、 Technology 軸で *evangelizes* を実行している人は、 *specializes*、*adopts* も行うことができることを表現しています。
+
+各レベルの詳細は後述しています。
 
 # Levels
+`※各レベルについては、図に表示された言葉なのであえて日本語に訳すことはしていない。`
 
 ## Technology
 
-1. **Adopts**: actively learns and adopts the technology and tools defined by the team
-2. **Specializes**: is the go-to person for one or more technologies and takes initiative to learn new ones
-3. **Evangelizes**: researches, creates proofs of concept and introduces new technologies to the team
-4. **Masters**: has very deep knowledge about the whole technology stack of the system
-5. **Creates**: designs and creates new technologies that are widely used either by internal or external teams
+1. **Adopts**: チームによって決定されたテクノロジーとツールを積極的に学び、取り入れる。
+2. **Specializes**: 1つまたは複数の技術領域において頼りになる人物であり、新しい技術を学ぶために率先して行動している。
+3. **Evangelizes**: 調査、実証実験の実装、チームに新しいテクノロジーを導入する。
+4. **Masters**: システムの技術スタック全体について非常に深い知識を持っている。
+5. **Creates**: 内部または外部のチームによって広く使用されるような新しいテクノロジーを設計および作成する。
 
 ## System
 
-1. **Enhances**: successfully pushes new features and bug fixes to improve and extend the system
-2. **Designs**: designs and implements medium to large size features while reducing the system's tech debt
-3. **Owns**: owns the production operation and monitoring of the system and is aware of its SLAs
-4. **Evolves**: evolves the architecture to support future requirements and defines its SLAs
-5. **Leads**: leads the technical excellence of the system and creates plans to mitigate outages
+1. **Enhances**: システムを改善および新機能とバグ修正を実行できる。
+2. **Designs**: システムの技術的負債を削減しながら、中規模から大規模なサイズの機能の設計および実装をする。
+4. **Owns**: システムの運用と監視を担当し、その SLA を気にしている。
+5. **Evolves**: 将来の要件をサポートするためにアーキテクチャを進化、改善させ、SLA を定義する。
+6. **Leads**: システムの技術的卓越性をリードし、停止を軽減するための計画を作成する。
 
 ## People
 
-1. **Learns**: quickly learns from others and consistently steps up when it is required
-2. **Supports**: proactively supports other team members and helps them to be successful
-3. **Mentors**: mentors others to accelerate their career-growth and encourages them to participate
-4. **Coordinates**: coordinates team members providing effective feedback and moderating discussions
-5. **Manages**: manages the team members' career, expectations, performance and level of happiness
+1. **Learns**: 他の人からすぐに学び、必要に応じて定常的にステップアップする。
+2. **Supports**: 他のチームメンバーを積極的にサポートし、彼らが成功するのを助ける。
+3. **Mentors**: 他の人がキャリア成長を加速できるようメンタリングを行、そのメンバーが力を発揮できるように導く。
+4. **Coordinates**: チームメンバーの間に入り、効果的なフィードバックを提供したり、議論を円滑にする。
+5. **Manages**: チームメンバーをマネージすることでキャリア、期待、パフォーマンス、幸福度に貢献する。
 
 ## Process
 
-1. **Follows**: follows the team processes, delivering a consistent flow of features to production
-2. **Enforces**: enforces the team processes, making sure everybody understands the benefits and tradeoffs
-3. **Challenges**: challenges the team processes, looking for ways to improve them
-4. **Adjusts**: adjusts the team processes, listening to feedback and guiding the team through the changes
-5. **Defines**: defines the right processes for the team's maturity level, balancing agility and discipline
+1. **Follows**: チームのプロセスに従い、継続的に機能群を本番環境に提供する。
+2. **Enforces**: チームのプロセスを実施し、チーム全員がメリットとトレードオフを確実に理解できるようにする。
+3. **Challenges**: 改善する方法を探し、チームプロセスに対して挑戦的になる。
+4. **Adjusts**: チームのプロセスのバランスをとり、フィードバックに耳を傾け、変更を通じてチームを導く。
+5. **Defines**: 敏捷性と規律のバランスをとりながら、チームの成熟度に適したプロセスを定義する。
 
 ## Influence
 
-1. **Subsystem**: makes an impact on one or more subsystems
-2. **Team**: makes an impact on the whole team, not just on specific parts of it
-3. **Multiple Teams**: makes an impact not only his/her team but also on other teams
-4. **Company**: makes an impact on the whole tech organization
-5. **Community**: makes an impact on the tech community
+1. **Subsystem**: 1つ以上のサブシステムに影響が与えている。
+2. **Team**: チームの特定の部分だけではなく、チーム全体に影響を与えている。
+3. **Multiple Teams**: 自分のチームだけではなく、他のチームにも影響を与えている。
+4. **Company**: 開発組織全体に影響を与えいてる。
+5. **Community**: 技術コミュニティに影響を与えている。
 
 # FAQs
 
-**What if some of the people don't meet all the points?**
+**すべての軸を満たしていない場合はどうなりますか?**
 
-That is very normal, people are usually stronger in some areas and weaker in others. The framework should not be used as a checklist to promote people but instead as guidance to have meaningful career conversations.
+それはごく普通に発生することです。人は通常、ある分野では強く、別の分野では弱くなります。このフレームワークは、メンバーの昇進を判断するチェックリストとして使用するのではなく、キャリアパスについて有意義な会話をするための手引きとして利用する。
 
-**What if my organization's career ladder is different?**
+**組織のキャリアラダーと異なる場合はどうすべきですか？**
 
-Since the framework is open source, you have the opportunity to adapt it to your organization. Feel free to use the [chart template](charts/template.png) to define your own levels.
+このフレームワークはオープンソースとして公開しているため、組織に合わせて適応することができます。[チャートテンプレート](charts/template.png) を改変することで独自のレベルを定義してください。
 
-**When is a person ready to move to the next level?**
+**メンバーはいつ次のレベルに移ることができますか？**
 
-Companies usually expect a person to be performing at the next level *consistently for several months* before formalizing a promotion.
+企業は通常、正式に昇進する前に *継続して数ヶ月* の間、次のレベルのパフォーマンスを出していることを期待しています。
 
-**How do I collect evidence to support the discussion with my direct reports?**
+**メンバーとの議論にあたって必要な裏付けはどのように収集すればいいですか？**
 
-Different teams collect evidence in different ways. A recommended approach is to use a combination of:
-* 1:1 conversations
-* Feedback from peers and other teams
-* Self-evaluation
+チームによって様々なあった裏付けの収集方法があります。次の方法の組み合わせを使用することが推奨です:
+* 1on1
+* 同僚や他のチームからのフィードバック
+* 自己評価
 
-**Could the framework provide more specific examples of behavior to support each level?**
+**フレームワークは、各レベルのより具体的な例を挙げることはできますか？**
 
-Specific examples of behavior require knowledge about the way that the team works, the system architecture and its technology stack. It is recommended to allow each team to define their own examples.
+具体的な例を挙げるには、そのチームの働き方、システムアーキテクチャ、技術スタックについて知る必要があります。各チームの中で独自の例を定義することが推奨されます。
 
-**Why does the framework stop at level 7?**
+**フレームワークのレベルが7までなのはどうしてですか？**
 
-Levels 8 and above vary drastically from company to company. Organizations of different sizes tend to assign a diverse level of scope to positions so high in their structure.
+レベル8以上は企業によって大きく異なります。様々な組織では、組織構造の高い位置に多様なレベルの役割を設ける傾向があります。
 
-**Do you have any additional resources about the topic?**
+**他の参照情報などはありますか？**
 
-* [The Manager's Path](http://shop.oreilly.com/product/0636920056843.do): Camille Fournier does an excellent job at describing the expectations and challenges of many engineering positions. Also, she provides good advice about writing a career ladder in chapter 9.
+* [The Manager's Path](http://shop.oreilly.com/product/0636920056843.do): Camille Fournier は、多くのエンジニアリング職の期待と課題を見事に説明しています。 また、彼女は第9章でキャリアラダーを書くにあたって良いアドバイスを提供しています。
 
-* [How to Be Good at Performance Appraisals](https://store.hbr.org/product/how-to-be-good-at-performance-appraisals-simple-effective-done-right/10295): Dick Grote explains in simple terms how to define job responsibilities and how to evaluate performance (results and behaviors).
+* [How to Be Good at Performance Appraisals](https://store.hbr.org/product/how-to-be-good-at-performance-appraisals-simple-effective-done-right/10295): Dick Grote が、仕事の責任を定義する方法とパフォーマンス (結果と行動) を評価する方法を簡単な言葉で説明しています。
 
-# Other Pages
+# その他のページ
 
-* [**Developer**](Developer.md)
-* [**Tech Lead**](TechLead.md)
-* [**Technical Program Manager**](TechnicalProgramManager.md)
-* [**Engineering Manager**](EngineeringManager.md)
-* [**Tech Lead vs Engineering Manager**](TechLead-EngineeringManager.md)
-* [**Managing Managers**](Managing-Managers.md)
+* [**開発者**](Developer.md)
+* [**テックリード**](TechLead.md)
+* [**テクニカルプログラムマネージャー**](TechnicalProgramManager.md)
+* [**エンジニアリングマネージャー**](EngineeringManager.md)
+* [**テックリード vs エンジニアリングマネージャー**](TechLead-EngineeringManager.md)
+* [**マネージャーのマネジメント**](Managing-Managers.md)
